@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript" src="textsizer.js">
+
+/***********************************************
+* Document Text Sizer- Copyright 2003 - Taewook Kang.  All rights reserved.
+* Coded by: Taewook Kang (http://www.txkang.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+<style type="text/css">
+
+.main {
+width:200px;
+border:1px solid black;
+}
+
+.month {
+background-color:black;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 12px verdana;
+color:white;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+</style>
+
+
+<script type="text/javascript" src="basiccalendar.js">
+
+/***********************************************
+* Basic Calendar-By Brian Gosselin at http://scriptasylum.com/bgaudiodr/
+* Script featured on Dynamic Drive (http://www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script> 
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Home</title>
+<!-- #EndEditable -->
+<style type="text/css">
+.auto-style2 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+}
+.auto-style3 {
+	font-size: large;
+}
+.auto-style4 {
+	color: #EDEDED;
+}
+.ScrollingMarqueeText {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: +3px;
+	background-color: #FCA659;
+}
+.auto-style6 {
+	color: #EDEDED;
+	background-color: #465460;
+}
+.auto-style9 {
+	border-style: solid;
+	border-color: #465460;
+	background-color: #465460;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	white-space: nowrap;
+}
+.auto-style11 {
+	border-width: 0px;
+}
+.auto-style12 {
+	border-style: solid;
+	border-color: #465460;
+	background-color: #465460;
+	text-align: center;
+	white-space: nowrap;
+}
+.auto-style13 {
+	color: #E9E9E9;
+	font-size: large;
+}
+.auto-style14 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #E9E9E9;
+	text-align: center;
+}
+.auto-style15 {
+	text-decoration: none;
+}
+.auto-style16 {
+	margin-bottom: 0px;
+}
+.NavigationBar {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+}
+.auto-style17 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+	text-decoration: underline;
+}
+.auto-style18 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="5">
+		<img alt="Banner" height="243" src="Images/bean%20banner.png" width="100%" class="auto-style16" />&nbsp;</td>
+	</tr>
+	<tr class="NavigationBar">
+		<td class="auto-style17" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="Index.html"><span class="auto-style13">Home</span></a></strong></td>
+		<td class="auto-style14" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Meet%20The%20Team.html">
+		<span class="auto-style13">Meet The Team</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Courses.html">
+		<span class="auto-style13">Courses</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Job%20Specifications.html">
+		<span class="auto-style13">Job Specifications</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;"><strong>
+		<a class="auto-style18" href="HTML/Apply%20Here.html">
+		<span class="NavigationBar">Apply Here</span></a></strong></td>
+	</tr>
+	<tr>
+		<td class="ScrollingMarqueeText" colspan="5"><div align="center"><FONT color="#ffffff" size="+3">
+			<MARQUEE bgcolor="#FCA659" direction="right" loop="20" width="100%" style="height: 35px"><STRONG>APPLY TODAY... LIMITED POSITIONS AVAILABLE!</STRONG></MARQUEE></FONT></DIV></td>
+	</tr>
+	<tr>
+		<td colspan="5" style="height: 25px"><!-- #BeginEditable "Text" -->
+		<p>(Text)</p>
+<!-- #EndEditable -->
+		</td>
+	</tr>
+	<tr>
+		<td class="auto-style12" style="height: 28px; ">
+		<a href="https://en-gb.facebook.com/">
+		<img alt="Facebook" height="70" src="Images/Facebook-logo-2019.png" width="70" class="auto-style11" /></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://www.instagram.com/">
+		<img alt="Insta" height="70" src="Images/instagram_3955024.png" width="70" class="auto-style11" /></a></td>
+		<td class="auto-style9" style="height: 28px; width: 60%;" colspan="3" valign="top">
+		<strong><span class="auto-style3">Contact us:</span><br />
+		Telephone No: 079 496 2779<br />
+		Fax No: 079 496 2778<br />
+		Email: </strong> <span class="auto-style4">
+		<a href="mailto:Hotbeansweb@gmail.com" class="auto-style15">
+		<span class="auto-style6"><em><strong>Hotbeansweb@gmail.com</strong></em></span></a></span><strong><br />
+		Post: Hot Beans HQ<br />
+&nbsp;BT35 1TF Newry<br />
+		Co. Down</strong></td>
+		<td class="auto-style12" style="height: 28px; ">
+		<a href="https://uk.linkedin.com/">
+		<img alt="linkedin" height="70" src="Images/linkedin-icon-1024x1024-z5dvl47c.png" width="70" class="auto-style11" /></a>&nbsp;&nbsp;
+		<a href="https://twitter.com/">
+		<img alt="x" height="75" src="Images/x.png" width="72" class="auto-style11" /></a></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

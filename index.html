@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "Template.dwt" -->
+
+<head>
+<script type="text/javascript" src="textsizer.js">
+
+/***********************************************
+* Document Text Sizer- Copyright 2003 - Taewook Kang.  All rights reserved.
+* Coded by: Taewook Kang (http://www.txkang.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+<style type="text/css">
+
+
+.main {
+width:200px;
+border:1px solid black;
+}
+
+.month {
+background-color:black;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 12px verdana;
+color:white;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+</style>
+
+
+<script type="text/javascript" src="basiccalendar.js">
+
+/***********************************************
+* Basic Calendar-By Brian Gosselin at http://scriptasylum.com/bgaudiodr/
+* Script featured on Dynamic Drive (http://www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script> 
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Home</title>
+<style type="text/css">
+
+
+
+
+
+
+
+
+
+.auto-style19 {
+	text-align: center;
+}
+.auto-style21 {
+	text-align: left;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style23 {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: rgb(0, 0, 0);
+	margin-left: 36px;
+}
+.MainHeading {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #171D28;
+	font-size: 40pt;
+	}
+.auto-style34 {
+	margin: 0.8em 0px 0.8em 37px;
+	text-align: left;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-indent: 0px;
+	text-transform: none;
+	word-spacing: 0px;
+	white-space: normal;
+	background-color: rgb(255, 255, 255);
+}
+.BodyText {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: rgb(0, 0, 0);
+	margin-left: 34px;
+}
+.auto-style39 {
+	text-align: right;
+	border-top-style: none;
+	border-top-width: medium;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style40 {
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style41 {
+	text-align: center;
+	border-top-style: none;
+	border-top-width: medium;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style42 {
+	text-align: left;
+	border-top-style: none;
+	border-top-width: medium;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style44 {
+	text-align: right;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style46 {
+	border-top-style: none;
+	border-top-width: medium;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style47 {
+	border-top-style: none;
+	border-top-width: medium;
+}
+.auto-style53 {
+	text-align: right;
+	border-top-style: none;
+	border-top-width: medium;
+}
+.auto-style54 {
+	margin-top: 135px;
+}
+.auto-style55 {
+	text-align: center;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+.auto-style56 {
+	text-align: center;
+	border-top-style: none;
+	border-top-width: medium;
+}
+.auto-style57 {
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+}
+.SubHeading1 {
+	margin: 0.8em 0px;
+	text-align: center;
+	color: #FCA659;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-indent: 0px;
+	text-transform: none;
+	word-spacing: 0px;
+	white-space: normal;
+	background-color: rgb(255, 255, 255);
+}
+.auto-style60 {
+	text-align: left;
+	border-top-style: none;
+	border-top-width: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style61 {
+	text-align: justify;
+	border-top-style: none;
+	border-top-width: medium;
+}
+.auto-style62 {
+	background-color: gray;
+	font: bold 12px verdana;
+	color: white;
+	margin-top: 134px;
+}
+.auto-style63 {
+	margin: 0.8em 0px 0.8em 37px;
+	text-align: left;
+	color: #FCA659;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-indent: 0px;
+	text-transform: none;
+	word-spacing: 0px;
+	white-space: normal;
+	background-color: rgb(255, 255, 255);
+}
+.auto-style64 {
+	color: #FCA659;
+	font-size: x-large;
+}
+</style>
+<!-- #EndEditable -->
+<style type="text/css">
+
+.auto-style2 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+}
+.auto-style3 {
+	font-size: large;
+}
+.auto-style4 {
+	color: #EDEDED;
+}
+.ScrollingMarqueeText {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: +3px;
+	background-color: #FCA659;
+}
+.auto-style6 {
+	color: #EDEDED;
+	background-color: #465460;
+}
+.auto-style9 {
+	border-style: solid;
+	border-color: #465460;
+	background-color: #465460;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	white-space: nowrap;
+}
+.auto-style11 {
+	border-width: 0px;
+}
+.auto-style12 {
+	border-style: solid;
+	border-color: #465460;
+	background-color: #465460;
+	text-align: center;
+	white-space: nowrap;
+}
+.auto-style13 {
+	color: #E9E9E9;
+	font-size: large;
+}
+.auto-style14 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #E9E9E9;
+	text-align: center;
+}
+.auto-style15 {
+	text-decoration: none;
+}
+.auto-style16 {
+	margin-bottom: 0px;
+}
+.NavigationBar {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+}
+.auto-style17 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+	text-decoration: underline;
+}
+.auto-style18 {
+	background-color: #171D28;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	text-align: center;
+	font-size: large;
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="5">
+		<img alt="Banner" height="243" src="Images/bean%20banner.png" width="100%" class="auto-style16" />&nbsp;</td>
+	</tr>
+	<tr class="NavigationBar">
+		<td class="auto-style17" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="index.html"><span class="auto-style13">Home</span></a></strong></td>
+		<td class="auto-style14" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Meet%20The%20Team.html">
+		<span class="auto-style13">Meet The Team</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Courses.html">
+		<span class="auto-style13">Courses</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;">
+		<strong class="NavigationBar">
+		<a class="auto-style18" href="HTML/Job%20Specifications.html">
+		<span class="auto-style13">Job Specifications</span></a></strong></td>
+		<td class="auto-style2" style="width: 20%; height: 41px;"><strong>
+		<a class="auto-style18" href="HTML/Apply%20Here.html">
+		<span class="NavigationBar">Apply Here</span></a></strong></td>
+	</tr>
+	<tr>
+		<td class="ScrollingMarqueeText" colspan="5"><div align="center"><FONT color="#ffffff" size="+3">
+			<MARQUEE bgcolor="#FCA659" direction="right" loop="20" width="100%" style="height: 35px"><STRONG>APPLY TODAY... LIMITED POSITIONS AVAILABLE!</STRONG></MARQUEE></FONT></DIV></td>
+	</tr>
+	<tr>
+		<td colspan="5" style="height: 25px"><!-- #BeginEditable "Text" -->
+		<table style="width: 90%" align="center" class="auto-style57">
+			<tr>
+				<td class="auto-style19" colspan="5" style="height: 3px">
+				<p class="MainHeading"><strong>Welcome To Hot Beans Web :)</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="auto-style19" style="height: 3px">
+				</td>
+				<td class="auto-style19" style="height: 3px">
+				</td>
+				<td class="auto-style56" style="height: 3px">
+				<hr />
+				</td>
+				<td class="auto-style19" style="height: 3px; width: 50px;">
+				</td>
+				<td class="auto-style19" style="height: 3px">
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 20%; height: 102px;" class="auto-style44">
+				<img alt="web" height="200" src="Images/What-is-a-Website-Developer.jpg" width="375" /></td>
+				<td style="width: 969px; height: 102px;" class="auto-style40"></td>
+				<td style="width: 61%; height: 102px;" class="auto-style55">
+				<p class="SubHeading1" data-adtags-visited="true" style="box-sizing: inherit; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 993px;">
+				<strong>About Us!</strong></p>
+				<p class="BodyText" data-adtags-visited="true" style="box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 989px; margin-right: 0px; margin-top: 0.8em; margin-bottom: 0.8em;">
+				In the last decade Alan has expanded the business working for 
+				many local and international businesses. From opening up its 
+				Headquarters in Newry, Northern Ireland, to creating impressive 
+				links with massive global companies.</p>
+				<p class="auto-style23" data-adtags-visited="true" style="box-sizing: inherit; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 977px; margin-right: 0px; margin-top: 0.8em; margin-bottom: 0.8em;">
+				Hot Beans Web was founded in 2006 by Alan Tichmarsh. After 
+				having years of <span>experience </span>&nbsp;working with other website developing 
+				businesses, he decided to set up Hot Beans Web after he felt 
+				that other website developer companies, he was working with 
+				weren't intuitive enough. He swore an oath, every website made 
+				by Hot Beans Web will be created with the highest of standard!</p>
+				</td>
+				<td style="width: 50px; height: 102px;" class="auto-style40"></td>
+				<td style="width: 20%; height: 102px;" class="auto-style21">
+				<img alt="webby" height="200" src="Images/Web-Programmer-Tallents-1.jpg" width="375" /></td>
+			</tr>
+			<tr>
+				<td style="width: 20%; height: 10px;" class="auto-style39">
+				</td>
+				<td style="width: 969px; height: 10px;" class="auto-style46"></td>
+				<td style="width: 61%; height: 10px;" class="auto-style41">
+				</td>
+				<td style="width: 50px; height: 10px;" class="auto-style46"></td>
+				<td style="width: 20%; height: 10px;" class="auto-style42">
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 20%;" class="auto-style61" rowspan="4">
+				<img alt="D" height="200" src="Images/scott-gettyimages-523031716-credit-izusek.jpg" width="375" class="auto-style62" /></td>
+				<td style="width: 969px;" rowspan="4" class="auto-style47">
+				&nbsp;</td>
+				<td style="height: 20px; width: 61%;" class="auto-style46">
+				<p class="SubHeading1" data-adtags-visited="true" style="box-sizing: inherit; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 993px;">
+				<strong>Our Location</strong></p>
+				<p class="auto-style34" data-adtags-visited="true" style="box-sizing: inherit; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 993px;">
+				We are based in the heart of Newry, Co. Down Northern Ireland, 
+				perfectly situated between Dublin and Belfast. Call in to talk 
+				to one of our staff to book an interview or find out more about 
+				Job opportunities.</p>
+				</td>
+				<td rowspan="4" class="auto-style47" style="width: 50px"></td>
+				<td rowspan="4">
+				<img alt="F" height="200" src="Images/guy-on-computer_vute.jpg" width="375" class="auto-style54" /> </td>
+			</tr>
+			<tr>
+				<td style="height: 20px; width: 61%;" class="auto-style47">
+				<hr /></td>
+			</tr>
+			<tr>
+				<td style="height: 21px; width: 60%;" class="auto-style19">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37369.06764850408!2d-6.41146551729582!3d54.17003833811615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48603324bd84270b%3A0x56524042ae2d6707!2sNewry!5e0!3m2!1sen!2suk!4v1696860588998!5m2!1sen!2suk" height="300" style="border-style: none; border-color: inherit; border-width: 0; width: 507px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+			</tr>
+			<tr>
+				<td style="height: 13px; width: 60%;" class="auto-style55">
+				<hr />
+				</td>
+			</tr>
+			<tr>
+				<td class="auto-style53" style="height: 23px">
+				</td>
+				<td class="auto-style53" style="height: 23px">
+				</td>
+				<td class="auto-style53" style="height: 23px">
+				<p class="SubHeading1" data-adtags-visited="true" style="box-sizing: inherit; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 993px;">
+				<strong>Apply Today!</strong></p>
+				<p class="auto-style34" data-adtags-visited="true" style="box-sizing: inherit; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 993px;">
+				We are currently on the hunt for new employees at Hot Beans Web! 
+				We have a wide range of jobs and courses available to apply for 
+				and build your CV.<span style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"> 
+				Here at Hot Beans Web we are always looking to grow so check out 
+				the<strong> Job Specifications</strong> to see if you can join 
+				the family.</span> </p>
+				</td>
+				<td class="auto-style53" style="height: 23px; width: 50px;">
+				</td>
+				<td class="auto-style60" style="height: 23px" valign="bottom">
+				<a href="javascript:ts('body',1)" class="auto-style15"></td>
+			</tr>
+			<tr>
+				<td class="auto-style53" style="height: 23px">
+				&nbsp;</td>
+				<td class="auto-style53" style="height: 23px">
+				&nbsp;</td>
+				<td class="auto-style56" style="height: 23px">
+				&nbsp;<a href="javascript:ts('body',1)" class="auto-style15">
+				<span class="auto-style63"><strong><span class="auto-style37">+ Larger Font</span></strong></span></a><span class="auto-style38"><strong><span class="auto-style64">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span></strong></span><a
+href="javascript:ts('body',-1)" class="auto-style15"><span class="auto-style63"><strong><span class="auto-style37">+ Smaller Font</span></strong></span></a></td>
+</td>
+				<td class="auto-style53" style="height: 23px; width: 50px;">
+				&nbsp;</td>
+				<td class="auto-style60" style="height: 23px" valign="bottom">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="auto-style53" colspan="5" style="height: 27px">
+				<marquee behavior="alternate" style="width: 1785px" scrolldelay="100">
+    <img src="web developer 2.png" width="700" height="300" alt="web developer 2" /><img src="web_developer.png" width="700" height="300" alt="web_developer" /><img src="web_developer__1_.png" width="700" height="300" alt="web_developer__1_" /><img src="web developer 2.png" width="700" height="300" alt="web developer 2" /><img src="web_developer.png" width="700" height="300" alt="web_developer" /><img src="web_developer__1_.png" width="700" height="300" alt="web_developer__1_" />
+
+    </marquee>  
+</td>
+			</tr>
+			<tr>
+				<td class="auto-style53" colspan="5" style="height: 23px">
+				</td>
+			</tr>
+			</table>
+<!-- #EndEditable -->
+		</td>
+	</tr>
+	<tr>
+		<td class="auto-style12" style="height: 28px; ">
+		<a href="https://en-gb.facebook.com/">
+		<img alt="Facebook" height="70" src="Images/Facebook-logo-2019.png" width="70" class="auto-style11" /></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://www.instagram.com/">
+		<img alt="Insta" height="70" src="Images/instagram_3955024.png" width="70" class="auto-style11" /></a></td>
+		<td class="auto-style9" style="height: 28px; width: 60%;" colspan="3" valign="top">
+		<strong><span class="auto-style3">Contact us:</span><br />
+		Telephone No: 079 496 2779<br />
+		Fax No: 079 496 2778<br />
+		Email: </strong> <span class="auto-style4">
+		<a href="mailto:Hotbeansweb@gmail.com" class="auto-style15">
+		<span class="auto-style6"><em><strong>Hotbeansweb@gmail.com</strong></em></span></a></span><strong><br />
+		Post: Hot Beans HQ<br />
+&nbsp;BT35 1TF Newry<br />
+		Co. Down</strong></td>
+		<td class="auto-style12" style="height: 28px; ">
+		<a href="https://uk.linkedin.com/">
+		<img alt="linkedin" height="70" src="Images/linkedin-icon-1024x1024-z5dvl47c.png" width="70" class="auto-style11" /></a>&nbsp;&nbsp;
+		<a href="https://twitter.com/">
+		<img alt="x" height="75" src="Images/x.png" width="72" class="auto-style11" /></a></td>
+	</tr>
+</table>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
